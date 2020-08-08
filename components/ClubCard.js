@@ -1,14 +1,14 @@
 
 
-function ClubCard() {
-    // this.clubName = data.name;
-    // this.picLink = data.picLink;
+function ClubCard(data) {
+    this.clubName = data.name;
+    this.picLink = data.picLink;
 
 return(
 <div class="max-w-sm rounded overflow-hidden shadow-lg">
-  {/* <img class="w-full" src = {this.picLink}/> */}
+  <img class="w-full" src = {this.picLink}/>
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">"HIIIIIIIIIII"</div>
+    <div class="font-bold text-xl mb-2">this.clubName</div>
     </div>
     {/* <p class="text-gray-700 text-base">
     this.clubName;
