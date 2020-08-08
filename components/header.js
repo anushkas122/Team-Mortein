@@ -10,11 +10,14 @@ const MenuItem = ({ children, href }) => (
 
 function Header({ user, loading }) {
   return (
-
-    <header className='bg-orange-300'>
-      <nav className='container flex items-center justify-between flex-wrap  py-2 '>
-        <div id='Brand' className='text-3xl text-black-700'>
-          UOA Clubs & Events 2020
+    <header className="bg-orange-300">
+      <nav className="container flex items-center justify-between flex-wrap  py-2 ">
+        <div
+          id="Brand"
+          className="text-3xl text-black-700"
+          style={{ fontStyle: "bold" }}
+        >
+          Clever Clubs
         </div>
         <ul className=" flex   ">
           <MenuItem href="/">Home</MenuItem>
@@ -32,10 +35,7 @@ function Header({ user, loading }) {
         </ul>
       </nav>
     </header>
-
-    
-  )
-
+  );
 }
 
 export default Header;
