@@ -2,7 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import Header from './header'
 import Footer from './footer'
-import ClubCard from '.ClubCard'
+import Categories from './categories'
+import clubInfo from './clubInfo'
 
 function Layout ({ user, loading = false, children }) {
   return (
@@ -14,39 +15,15 @@ function Layout ({ user, loading = false, children }) {
     
       <Header user={user} loading={loading} />
       SPORTS
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
+      <Categories data={clubInfo, "Sports"}/>
       ACADEMIC
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
+      <Categories data={clubInfo, "Academic"}/>
       RELIGIOUS
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
+      <Categories data={clubInfo, "Religious"}/>
       CULTURE
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
+      <Categories data={clubInfo, "Culture"}/>
       CAUSES   
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
-      <ClubCard data={name=clubName, picLink=pictureResource, blurb=blurb}> </ClubCard>;
+      <Categories data={clubInfo, "Causes"}/>
       <Footer/>
       </>
   )

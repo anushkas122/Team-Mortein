@@ -8,7 +8,8 @@
             "Contact - Phone": "0800420000",
             "Event 1": "Soccer Game 1",
             "Event 2": "Soccer Game 2",
-            "Recommended": "Medical Students' Association"
+            "Recommended": "Medical Students' Association",
+            "Photo": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1156&q=80"
         },
         {
             "Name": "Cricket Company",
@@ -19,6 +20,7 @@
             "Event 1": "Cricket Game 1",
             "Event 2": "Cricket Game 2",
             "Recommended": "Law Students' Association",
+            "Photo": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80",
             "undefined": "Categories"
         },
         {
@@ -30,6 +32,7 @@
             "Event 1": "Basketball Game 1",
             "Event 2": "Basketball Game 2",
             "Recommended": "CompSci Students' Association",
+            "Photo": "https://images.unsplash.com/photo-1523142096306-cca37b5aa001?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
             "undefined": "Sport"
         },
         {
@@ -41,6 +44,7 @@
             "Event 1": "Hockey Game 1",
             "Event 2": "Hockey Game 2",
             "Recommended": "Christian Circle",
+            "Photo": "https://images.unsplash.com/photo-1541983663620-7571a820610c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
             "undefined": "Academic"
         },
         {
@@ -52,6 +56,7 @@
             "Event 1": "Badminton Game 1",
             "Event 2": "Badminton Game 2",
             "Recommended": "Hindu Hangout",
+            "Photo": "https://images.unsplash.com/photo-1562050061-9f9c55b807e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
             "undefined": "Religious"
         },
         {
@@ -63,6 +68,7 @@
             "Event 1": "Rugby Game 1",
             "Event 2": "Rugby Game 2",
             "Recommended": "Buddhist Bunch",
+            "Photo": "https://images.unsplash.com/photo-1512299286776-c18be8ed6a1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
             "undefined": "Cultural"
         },
         {
@@ -73,6 +79,7 @@
             "Contact - Phone": "0800420006",
             "Event 1": "Stein 1",
             "Recommended": "Muslim Meetings",
+            "Photo": "https://images.unsplash.com/photo-1436076863939-06870fe779c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
             "undefined": "Causes"
         },
         {
@@ -82,7 +89,8 @@
             "Contact - Email": "musicassociation@gmail.com",
             "Contact - Phone": "0800420007",
             "Event 1": "Concert 1",
-            "Recommended": "Sikh Squad"
+            "Recommended": "Sikh Squad",
+            "Photo": "https://images.unsplash.com/photo-1566633806327-68e152aaf26d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         },
         {
             "Name": "Commerce Students' Association",
@@ -90,7 +98,8 @@
             "Description": "We like to drink and do business.",
             "Contact - Email": "commerceassociation@gmail.com",
             "Contact - Phone": "0800420008",
-            "Recommended": "Filipino Fellowship"
+            "Recommended": "Filipino Fellowship",
+            "Photo": "https://images.unsplash.com/photo-1518176258769-f227c798150e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80"
         },
         {
             "Name": "Medical Students' Association",
@@ -99,7 +108,8 @@
             "Contact - Email": "medicalassociation@gmail.com",
             "Contact - Phone": "0800420009",
             "Event 1": "Revue",
-            "Recommended": "Chinese Club"
+            "Recommended": "Chinese Club",
+            "Photo": "https://images.unsplash.com/photo-1567579518027-7a113279f8ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"
         },
         {
             "Name": "Law Students' Association",
@@ -108,7 +118,8 @@
             "Contact - Email": "lawassociation@gmail.com",
             "Contact - Phone": "0800420010",
             "Event 1": "Drink & Debate",
-            "Recommended": "Greek Guild"
+            "Recommended": "Greek Guild",
+            "Photo": "https://images.unsplash.com/photo-1549044466-404f19605ddc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         },
         {
             "Name": "CompSci Students' Association",
@@ -116,7 +127,8 @@
             "Description": "We like to code.",
             "Contact - Email": "compsciassociation@gmail.com",
             "Contact - Phone": "0800420011",
-            "Recommended": "Spanish Society"
+            "Recommended": "Spanish Society",
+            "Photo": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         },
         {
             "Name": "Christian Circle",
@@ -125,7 +137,8 @@
             "Contact - Email": "christiancircle@gmail.com",
             "Contact - Phone": "0800420012",
             "Event 1": "Bible Study 1",
-            "Recommended": "Pasifika Partnership"
+            "Recommended": "Pasifika Partnership",
+            "Photo": "https://images.unsplash.com/photo-1488048924544-c818a467dacd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         },
         {
             "Name": "Hindu Hangout",
@@ -133,7 +146,8 @@
             "Description": "Praise Brahma, Vishnu, and Shiva!",
             "Contact - Email": "hinduhangout@gmail.com",
             "Contact - Phone": "0800420013",
-            "Recommended": "Thai Tribe"
+            "Recommended": "Thai Tribe",
+            "Photo": "https://images.unsplash.com/photo-1514377863868-02d7217c8bcd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         },
         {
             "Name": "Buddhist Bunch",
@@ -142,7 +156,8 @@
             "Contact - Email": "buddhistbunch@gmail.com",
             "Contact - Phone": "0800420014",
             "Event 1": "Meditation Session",
-            "Recommended": "Borders Without Engineers"
+            "Recommended": "Borders Without Engineers",
+            "Photo": "https://images.unsplash.com/photo-1510027580951-31747e2371a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         },
         {
             "Name": "Muslim Meetings",
@@ -150,7 +165,8 @@
             "Description": "Praise Allah!",
             "Contact - Email": "muslimmeetings@gmail.com",
             "Contact - Phone": "0800420015",
-            "Recommended": "Sustainable Future Crew"
+            "Recommended": "Sustainable Future Crew",
+            "Photo": "https://images.unsplash.com/photo-1559355324-a5879d536e84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1109&q=80"
         },
         {
             "Name": "Sikh Squad",
@@ -158,7 +174,8 @@
             "Description": "Praise Waheguru!",
             "Contact - Email": "sikhsquad@gmail.com",
             "Contact - Phone": "0800420016",
-            "Recommended": "Amnesty on Campus Online"
+            "Recommended": "Amnesty on Campus Online",
+            "Photo": "https://images.unsplash.com/photo-1556656416-74183d01093d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"
         },
         {
             "Name": "Filipino Fellowship",
@@ -167,7 +184,8 @@
             "Contact - Email": "filipinofellowship@gmail.com",
             "Contact - Phone": "0800420017",
             "Event 1": "Open-Mic Karaoke",
-            "Recommended": "Feminist Fraternity"
+            "Recommended": "Feminist Fraternity",
+            "Photo": "https://images.unsplash.com/photo-1542213493895-edf5b94f5a96?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=966&q=80"
         },
         {
             "Name": "Chinese Club",
@@ -176,7 +194,8 @@
             "Contact - Email": "chineseclub@gmail.com",
             "Contact - Phone": "0800420018",
             "Event 1": "Dimsum Making ",
-            "Recommended": "Animal Rights Alliance"
+            "Recommended": "Animal Rights Alliance",
+            "Photo": "https://images.unsplash.com/photo-1519181245277-cffeb31da2e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         },
         {
             "Name": "Greek Guild",
@@ -185,7 +204,8 @@
             "Contact - Email": "greekguild@gmail.com",
             "Contact - Phone": "0800420019",
             "Event 1": "Mythology Seminar",
-            "Recommended": "Fossil Free Federation"
+            "Recommended": "Fossil Free Federation",
+            "Photo": "https://images.unsplash.com/photo-1495463349271-af9a2bf23aff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1090&q=80"
         },
         {
             "Name": "Spanish Society",
@@ -193,7 +213,8 @@
             "Description": "Bienvenidos!",
             "Contact - Email": "spanishsociety@gmail.com",
             "Contact - Phone": "0800420020",
-            "Recommended": "Soccer Society"
+            "Recommended": "Soccer Society",
+            "Photo": "https://images.unsplash.com/photo-1578912996078-305d92249aa6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
         },
         {
             "Name": "Pasifika Partnership",
@@ -201,7 +222,8 @@
             "Description": "Tālofa",
             "Contact - Email": "pasifikapartnership@gmail.com",
             "Contact - Phone": "0800420021",
-            "Recommended": "Cricket Company"
+            "Recommended": "Cricket Company",
+            "Photo": "https://cdn.eventfinda.co.nz/uploads/events/transformed/1071694-482510-34.jpg?v=2"
         },
         {
             "Name": "Thai Tribe",
@@ -209,7 +231,8 @@
             "Description": "Sawasdee!",
             "Contact - Email": "thaitribe@gmail.com",
             "Contact - Phone": "0800420022",
-            "Recommended": "Basketball Bunch"
+            "Recommended": "Basketball Bunch",
+            "Photo": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80"
         },
         {
             "Name": "Borders Without Engineers",
@@ -218,7 +241,8 @@
             "Contact - Email": "bordersengineers@gmail.com",
             "Contact - Phone": "0800420023",
             "Event 1": "Information Evening",
-            "Recommended": "Hockey Heroes"
+            "Recommended": "Hockey Heroes",
+            "Photo": "https://images.unsplash.com/photo-1560574188-6a6774965120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         },
         {
             "Name": "Sustainable Future Crew",
@@ -227,7 +251,8 @@
             "Contact - Email": "sustainablecrew@gmail.com",
             "Contact - Phone": "0800420024",
             "Event 1": "Beach Clean-up",
-            "Recommended": "University of Auckland Badminton Club"
+            "Recommended": "University of Auckland Badminton Club",
+            "Photo": "https://images.unsplash.com/photo-1495584816685-4bdbf1b5057e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80"
         },
         {
             "Name": "Amnesty on Campus Online",
@@ -235,7 +260,8 @@
             "Description": "Promoting human rights advocacy on campus online.",
             "Contact - Email": "amnestyonline@gmail.com",
             "Contact - Phone": "0800420025",
-            "Recommended": "Rugby Ring"
+            "Recommended": "Rugby Ring",
+            "Photo": "https://images.unsplash.com/photo-1593347535897-06149dba667c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         },
         {
             "Name": "Feminist Fraternity",
@@ -243,7 +269,8 @@
             "Description": "Women are queens.",
             "Contact - Email": "feministfraternity@gmail.com",
             "Contact - Phone": "0800420026",
-            "Recommended": "Engineering Students' Association"
+            "Recommended": "Engineering Students' Association",
+            "Photo": "https://images.unsplash.com/photo-1515191107209-c28698631303?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
         },
         {
             "Name": "Animal Rights Alliance",
@@ -252,7 +279,8 @@
             "Contact - Email": "animalalliance@gmail.com",
             "Contact - Phone": "0800420027",
             "Event 1": "Dogs Vs Cats Debate",
-            "Recommended": "Music Students' Association"
+            "Recommended": "Music Students' Association",
+            "Photo": "https://images.unsplash.com/photo-1558322394-4d8813ceef8a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         },
         {
             "Name": "Fossil Free Federation",
@@ -260,7 +288,8 @@
             "Description": "Dinosaurs are pretty cool but not as fuel.",
             "Contact - Email": "fossilfederation@gmail.com",
             "Contact - Phone": "0800420028",
-            "Recommended": "Commerce Students' Association"
+            "Recommended": "Commerce Students' Association",
+            "Photo": "https://images.unsplash.com/photo-1568210710461-32a60f3b5388?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         }
     ]
 }
