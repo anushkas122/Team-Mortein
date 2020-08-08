@@ -1,9 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Header from './header'
-// import Footer from './footer'
-import Categories from './categories'
-import clubInfo from './clubInfo'
+import ClubCard from './ClubCard'
 
 function Layout ({ }) {
   return (
@@ -11,21 +9,14 @@ function Layout ({ }) {
       <Head>
         <title>WDCC - App Template</title>
       </Head>
-    
-      <Header />
-      SPORTS
-      <Categories data={clubInfo, "Sports"}/>
-      ACADEMIC
-      <Categories data={clubInfo, "Academic"}/>
-      RELIGIOUS
-      <Categories data={clubInfo, "Religious"}/>
-      CULTURE
-      <Categories data={clubInfo, "Culture"}/>
-      CAUSES   
-      <Categories data={clubInfo, "Causes"}/>
-      {/* <Footer/> */}
-      </>
+
+      <Header user={user} loading={loading} />
+      <main className='container mx-auto'>{children}</main>
+      <ClubCard/>
+
+    </>
   )
 }
 
-export default Layout;
+
+export default Layout

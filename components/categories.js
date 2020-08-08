@@ -18,12 +18,12 @@ class Cards extends React.Component {
     };
     
     getCards = (category) => {
+      console.log(category)
         const cards = [];
         let clubsData = clubsInfo.Sheet1;
         for (let i = 0; i < clubsData.length; i += 1) {
             if(clubsData[i].Category == category) {
-                cards.push(<ClubCard data={{name: clubsData[i].Name, icon: clubsData[i].Photo}}> </ClubCard>);
-                console.log(cards);
+                cards.push(<ClubCard data={{clubName: clubsData[i].Name, icon: clubsData[i].Photo}}> </ClubCard>);
             }
         }
         return cards;
@@ -31,7 +31,7 @@ class Cards extends React.Component {
     render() {
         const { category } = this.props;
         return(
-            this.getCards("Sport")
+            this.getCards(category)
         ); 
       }
   }

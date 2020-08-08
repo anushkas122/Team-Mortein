@@ -1,21 +1,20 @@
 import fetch from 'node-fetch'
 // import Layout from '../components/layout'
 import Categories from '../components/categories'
-import clubInfo from '../components/clubInfo'
 
 function Home () {
   return (
     <div>
-    <title>SPORTS</title>
-      <Categories data={"Sports"}/>
-      <title>ACADEMIC</title>
-      <Categories data={"Academic"}/>
-      <title>RELIGIOUS</title>
-      <Categories data={"Religious"}/>
-      <title>CULTURE</title>
-      <Categories data={"Culture"}/>
-      <title>CAUSES</title> 
-      <Categories data={"Causes"}/>
+      <h1>SPORTS</h1>
+      <Categories category={"Sport"}/>
+      <h1>ACADEMIC</h1>
+      <Categories category={"Academic"}/>
+      <h1>RELIGIOUS</h1>
+      <Categories category={"Religious"}/>
+      <h1>CULTURE</h1>
+      <Categories category={"Cultural"}/>
+      <h1>CAUSES</h1>
+      <Categories category={"Causes"}/>
     </div>
   )
 }
