@@ -15,8 +15,7 @@ function Layout ({ }) {
       <ClubCard/>
 
     </>
-  )
+  );
 }
-
 
 export default Layout
