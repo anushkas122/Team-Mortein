@@ -37,17 +37,18 @@ function Club() {
   return (
     <>
       <Layout user={user} loading={loading}>
+      <img src = "UABC image1.png" alt="UABC image"></img>
         <h1>Page heading</h1>
-        <p>Interesting content here</p>
+        <p>It can be a live changing club for you! Come and join us! We need you to join UABC!</p>
 
-        {loading && <p>Loading login info...</p>}
+        {/* {loading && <p>Loading login info...</p>}
         {!loading && !user && (
           <>
             <p>
               To view the dashboard <a href="/api/login">Login</a>
             </p>
           </>
-        )}
+        )} */}
         {user && (
           <>
             <ProfileCard user={user}>
@@ -62,7 +63,7 @@ function Club() {
           </>
         )}
 
-        <Button></Button>
+        <Button  onclick="window.history.back()">Back</Button>
       </Layout>
     </>
   );
