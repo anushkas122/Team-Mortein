@@ -14,7 +14,7 @@ function Layout({ user, loading = false, children }) {
       <main className="container mx-auto">{children}</main>
       <Footer user={user} loading={loading} />
     </>
-  );
+  )
 }
 
-export default Layout;
+export default Layout

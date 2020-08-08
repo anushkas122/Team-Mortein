@@ -36,7 +36,8 @@ function Home() {
     logEvent("click", 1);
   };
   return (
-    <Layout user={user} loading={loading}>
+    <div className = "h-screen flex flex-col"> 
+    <Layout user={user} loading={loading} >
       <h1>Page heading</h1>
       <p>Interesting content here</p>
 
@@ -64,6 +65,7 @@ function Home() {
 
       <Button></Button>
     </Layout>
+    </div>
   );
 }
 
