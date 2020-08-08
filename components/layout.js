@@ -2,18 +2,20 @@ import React from 'react'
 import Head from 'next/head'
 import Header from './header'
 import ClubCard from './ClubCard'
+import Footer from "./footer";
+import SideBar from "./sidebar";
 
-function Layout ({ }) {
+function Layout ({user, loading = false, children }) {
   return (
     <>
-      <Head>
-        <title>WDCC - App Template</title>
-      </Head>
+      <div className="left">
+        <SideBar />
+      </div>
 
       <Header user={user} loading={loading} />
-      <main className='container mx-auto'>{children}</main>
+      <main className="container mx-auto flex-1">{children}</main>
       <ClubCard/>
-
+      <Footer user={user} loading={loading} />
     </>
   );
 }
