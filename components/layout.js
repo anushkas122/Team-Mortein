@@ -1,24 +1,21 @@
+import React from 'react'
 import Head from 'next/head'
 import Header from './header'
-import Footer from './footer'
+import ClubCard from './ClubCard'
 
-
-function Layout({ user, loading = false, children }) {
+function Layout ({ }) {
   return (
     <>
       <Head>
         <title>WDCC - App Template</title>
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
-        />
       </Head>
 
       <Header user={user} loading={loading} />
       <main className='container mx-auto'>{children}</main>
-      <Footer user={user} loading={loading} /> 
+      <ClubCard/>
+
     </>
   );
 }
 
-export default Layout;
+export default Layout
