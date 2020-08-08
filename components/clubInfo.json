@@ -1,0 +1,266 @@
+{
+    "Sheet1": [
+        {
+            "Name": "Soccer Society",
+            "Category": "Sport",
+            "Description": "Is it soccer or is it football? Even we don't know!",
+            "Contact - Email": "soccersociety@gmail.com",
+            "Contact - Phone": "0800420000",
+            "Event 1": "Soccer Game 1",
+            "Event 2": "Soccer Game 2",
+            "Recommended": "Medical Students' Association"
+        },
+        {
+            "Name": "Cricket Company",
+            "Category": "Sport",
+            "Description": "East or west, cricket is the best!",
+            "Contact - Email": "cricketcompany@gmail.com",
+            "Contact - Phone": "0800420001",
+            "Event 1": "Cricket Game 1",
+            "Event 2": "Cricket Game 2",
+            "Recommended": "Law Students' Association",
+            "undefined": "Categories"
+        },
+        {
+            "Name": "Basketball Bunch",
+            "Category": "Sport",
+            "Description": "Ball goes SWOOSH! RIP Kobe.",
+            "Contact - Email": "basketballbunch@gmail.com",
+            "Contact - Phone": "0800420002",
+            "Event 1": "Basketball Game 1",
+            "Event 2": "Basketball Game 2",
+            "Recommended": "CompSci Students' Association",
+            "undefined": "Sport"
+        },
+        {
+            "Name": "Hockey Heroes",
+            "Category": "Sport",
+            "Description": "Life is Hockey, hockey is life.",
+            "Contact - Email": "hockeyheroes@gmail.com",
+            "Contact - Phone": "0800420003",
+            "Event 1": "Hockey Game 1",
+            "Event 2": "Hockey Game 2",
+            "Recommended": "Christian Circle",
+            "undefined": "Academic"
+        },
+        {
+            "Name": "University of Auckland Badminton Club",
+            "Category": "Sport",
+            "Description": "We're GOOD at BADminton.",
+            "Contact - Email": "universityclub@gmail.com",
+            "Contact - Phone": "0800420004",
+            "Event 1": "Badminton Game 1",
+            "Event 2": "Badminton Game 2",
+            "Recommended": "Hindu Hangout",
+            "undefined": "Religious"
+        },
+        {
+            "Name": "Rugby Ring",
+            "Category": "Sport",
+            "Description": "If you're not tough enough to play Rugby, there's always football.",
+            "Contact - Email": "rugbyring@gmail.com",
+            "Contact - Phone": "0800420005",
+            "Event 1": "Rugby Game 1",
+            "Event 2": "Rugby Game 2",
+            "Recommended": "Buddhist Bunch",
+            "undefined": "Cultural"
+        },
+        {
+            "Name": "Engineering Students' Association",
+            "Category": "Academic",
+            "Description": "We like to drink.",
+            "Contact - Email": "engineeringassociation@gmail.com",
+            "Contact - Phone": "0800420006",
+            "Event 1": "Stein 1",
+            "Recommended": "Muslim Meetings",
+            "undefined": "Causes"
+        },
+        {
+            "Name": "Music Students' Association",
+            "Category": "Academic",
+            "Description": "We like to drink and make music.",
+            "Contact - Email": "musicassociation@gmail.com",
+            "Contact - Phone": "0800420007",
+            "Event 1": "Concert 1",
+            "Recommended": "Sikh Squad"
+        },
+        {
+            "Name": "Commerce Students' Association",
+            "Category": "Academic",
+            "Description": "We like to drink and do business.",
+            "Contact - Email": "commerceassociation@gmail.com",
+            "Contact - Phone": "0800420008",
+            "Recommended": "Filipino Fellowship"
+        },
+        {
+            "Name": "Medical Students' Association",
+            "Category": "Academic",
+            "Description": "We like to drink and perform surgery.",
+            "Contact - Email": "medicalassociation@gmail.com",
+            "Contact - Phone": "0800420009",
+            "Event 1": "Revue",
+            "Recommended": "Chinese Club"
+        },
+        {
+            "Name": "Law Students' Association",
+            "Category": "Academic",
+            "Description": "We like to drink and defend lives.",
+            "Contact - Email": "lawassociation@gmail.com",
+            "Contact - Phone": "0800420010",
+            "Event 1": "Drink & Debate",
+            "Recommended": "Greek Guild"
+        },
+        {
+            "Name": "CompSci Students' Association",
+            "Category": "Academic",
+            "Description": "We like to code.",
+            "Contact - Email": "compsciassociation@gmail.com",
+            "Contact - Phone": "0800420011",
+            "Recommended": "Spanish Society"
+        },
+        {
+            "Name": "Christian Circle",
+            "Category": "Religious",
+            "Description": "Praise Jesus!",
+            "Contact - Email": "christiancircle@gmail.com",
+            "Contact - Phone": "0800420012",
+            "Event 1": "Bible Study 1",
+            "Recommended": "Pasifika Partnership"
+        },
+        {
+            "Name": "Hindu Hangout",
+            "Category": "Religious",
+            "Description": "Praise Brahma, Vishnu, and Shiva!",
+            "Contact - Email": "hinduhangout@gmail.com",
+            "Contact - Phone": "0800420013",
+            "Recommended": "Thai Tribe"
+        },
+        {
+            "Name": "Buddhist Bunch",
+            "Category": "Religious",
+            "Description": "Praise Buddha!",
+            "Contact - Email": "buddhistbunch@gmail.com",
+            "Contact - Phone": "0800420014",
+            "Event 1": "Meditation Session",
+            "Recommended": "Borders Without Engineers"
+        },
+        {
+            "Name": "Muslim Meetings",
+            "Category": "Religious",
+            "Description": "Praise Allah!",
+            "Contact - Email": "muslimmeetings@gmail.com",
+            "Contact - Phone": "0800420015",
+            "Recommended": "Sustainable Future Crew"
+        },
+        {
+            "Name": "Sikh Squad",
+            "Category": "Religious",
+            "Description": "Praise Waheguru!",
+            "Contact - Email": "sikhsquad@gmail.com",
+            "Contact - Phone": "0800420016",
+            "Recommended": "Amnesty on Campus Online"
+        },
+        {
+            "Name": "Filipino Fellowship",
+            "Category": "Cultural",
+            "Description": "Mabuhay! ",
+            "Contact - Email": "filipinofellowship@gmail.com",
+            "Contact - Phone": "0800420017",
+            "Event 1": "Open-Mic Karaoke",
+            "Recommended": "Feminist Fraternity"
+        },
+        {
+            "Name": "Chinese Club",
+            "Category": "Cultural",
+            "Description": "Ni hao!",
+            "Contact - Email": "chineseclub@gmail.com",
+            "Contact - Phone": "0800420018",
+            "Event 1": "Dimsum Making ",
+            "Recommended": "Animal Rights Alliance"
+        },
+        {
+            "Name": "Greek Guild",
+            "Category": "Cultural",
+            "Description": "Χαίρετε!",
+            "Contact - Email": "greekguild@gmail.com",
+            "Contact - Phone": "0800420019",
+            "Event 1": "Mythology Seminar",
+            "Recommended": "Fossil Free Federation"
+        },
+        {
+            "Name": "Spanish Society",
+            "Category": "Cultural",
+            "Description": "Bienvenidos!",
+            "Contact - Email": "spanishsociety@gmail.com",
+            "Contact - Phone": "0800420020",
+            "Recommended": "Soccer Society"
+        },
+        {
+            "Name": "Pasifika Partnership",
+            "Category": "Cultural",
+            "Description": "Tālofa",
+            "Contact - Email": "pasifikapartnership@gmail.com",
+            "Contact - Phone": "0800420021",
+            "Recommended": "Cricket Company"
+        },
+        {
+            "Name": "Thai Tribe",
+            "Category": "Cultural",
+            "Description": "Sawasdee!",
+            "Contact - Email": "thaitribe@gmail.com",
+            "Contact - Phone": "0800420022",
+            "Recommended": "Basketball Bunch"
+        },
+        {
+            "Name": "Borders Without Engineers",
+            "Category": "Causes",
+            "Description": "We connect, educate and empower people through humanitarian engineering.",
+            "Contact - Email": "bordersengineers@gmail.com",
+            "Contact - Phone": "0800420023",
+            "Event 1": "Information Evening",
+            "Recommended": "Hockey Heroes"
+        },
+        {
+            "Name": "Sustainable Future Crew",
+            "Category": "Causes",
+            "Description": "Achieving a sustainable future for ourselves, and our planet.",
+            "Contact - Email": "sustainablecrew@gmail.com",
+            "Contact - Phone": "0800420024",
+            "Event 1": "Beach Clean-up",
+            "Recommended": "University of Auckland Badminton Club"
+        },
+        {
+            "Name": "Amnesty on Campus Online",
+            "Category": "Causes",
+            "Description": "Promoting human rights advocacy on campus online.",
+            "Contact - Email": "amnestyonline@gmail.com",
+            "Contact - Phone": "0800420025",
+            "Recommended": "Rugby Ring"
+        },
+        {
+            "Name": "Feminist Fraternity",
+            "Category": "Causes",
+            "Description": "Women are queens.",
+            "Contact - Email": "feministfraternity@gmail.com",
+            "Contact - Phone": "0800420026",
+            "Recommended": "Engineering Students' Association"
+        },
+        {
+            "Name": "Animal Rights Alliance",
+            "Category": "Causes",
+            "Description": "Dogs == Cats. (JK, dogs are better.)",
+            "Contact - Email": "animalalliance@gmail.com",
+            "Contact - Phone": "0800420027",
+            "Event 1": "Dogs Vs Cats Debate",
+            "Recommended": "Music Students' Association"
+        },
+        {
+            "Name": "Fossil Free Federation",
+            "Category": "Causes",
+            "Description": "Dinosaurs are pretty cool but not as fuel.",
+            "Contact - Email": "fossilfederation@gmail.com",
+            "Contact - Phone": "0800420028",
+            "Recommended": "Commerce Students' Association"
+        }
+    ]
+}
