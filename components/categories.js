@@ -1,5 +1,6 @@
 import React from 'react'
 import ClubCard from './ClubCard'
+import clubsInfo from '../components/clubInfo'
 
 class Cards extends React.Component {
     constructor(props) {
@@ -12,17 +13,27 @@ class Cards extends React.Component {
     }
   
     componentDidMount = () => {
-      const { clubsData, category } = this.props;
-      this.getCards(clubsData, category);
+      const { category } = this.props;
+      this.getCards(category);
     };
     
-    getCards = (clubsData, category) => {
+    getCards = (category) => {
+        const cards = [];
+        let clubsData = clubsInfo.Sheet1;
         for (let i = 0; i < clubsData.length; i += 1) {
             if(clubsData[i].Category == category) {
-                <ClubCard data={name=clubsData[i].Name, icon = clubsData[i].Photo}> </ClubCard>
+                cards.push(<ClubCard data={{name: clubsData[i].Name, icon: clubsData[i].Photo}}> </ClubCard>);
+                console.log(cards);
             }
         }
+        return cards;
     };
+    render() {
+        const { category } = this.props;
+        return(
+            this.getCards("Sport")
+        ); 
+      }
   }
  
   export default Cards;
