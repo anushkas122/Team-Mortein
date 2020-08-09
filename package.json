@@ -15,6 +15,7 @@
   "dependencies": {
     "@auth0/nextjs-auth0": "^0.6.0",
     "@trendmicro/react-sidenav": "^0.5.0",
+    "chai": "^4.2.0",
     "dotenv": "^8.2.0",
     "mongodb": "^3.5.9",
     "n-readlines": "^1.0.0",
