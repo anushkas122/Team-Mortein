@@ -1,6 +1,6 @@
 import React from 'react'
 import ClubCard from './ClubCard'
-import clubsInfo from '../components/clubInfo'
+import clubsInfo from '../components/clubInfo.json'
 
 class Cards extends React.Component {
     constructor(props) {

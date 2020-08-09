@@ -25,13 +25,9 @@ function Club() {
       method: "post",
       body: JSON.stringify(event),
     });
-
-    // TODO handle error if event cannot be posted.
-    // TODO display feedback if event is ok
   };
 
   const handleClick = (e) => {
-    // console.log(e.target)
     logEvent("click", 1);
   };
   return (
@@ -98,14 +94,6 @@ function Club() {
           </div>
         </div>
 
-        {/* {loading && <p>Loading login info...</p>}
-        {!loading && !user && (
-          <>
-            <p>
-              To view the dashboard <a href="/api/login">Login</a>
-            </p>
-          </>
-        )} */}
         {user && (
           <>
             <ProfileCard user={user}>
