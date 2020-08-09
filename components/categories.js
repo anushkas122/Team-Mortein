@@ -1,6 +1,6 @@
 import React from 'react'
 import ClubCard from './ClubCard'
-import clubsInfo from '../components/clubInfo'
+import clubsInfo from '../components/clubInfo.json'
 
 class Cards extends React.Component {
     constructor(props) {
@@ -18,7 +18,6 @@ class Cards extends React.Component {
     };
     
     getCards = (category) => {
-      console.log(category)
         const cards = [];
         let clubsData = clubsInfo.Sheet1;
         for (let i = 0; i < clubsData.length; i += 1) {
