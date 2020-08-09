@@ -7,10 +7,7 @@ import Header from "../components/header";
 
 function Home() {
   return (
-    <div
-      className="h-screen flex flex-col"
-      style={{ backgroundColor: "#f7f0d8" }}
-    >
+    <div className="h-screen flex flex-col">
       <SideBar />
       {/* {loading && <p>Loading login info...</p>}
           {!loading && !user && (
@@ -39,7 +36,7 @@ function Home() {
 
       <main
         className="container mx-auto flex-1"
-        style={{ margin: "100px", backgroundColor: "#f7f0d8" }}
+        style={{ margin: "100px" }}
       ></main>
 
       <div
@@ -47,7 +44,6 @@ function Home() {
           paddingLeft: "170px",
           paddingBottom: "100px",
           marginTop: "-100px",
-          backgroundColor: "#f7f0d8",
         }}
       >
         <h1 class="font-black ml-8">SPORTS</h1>
