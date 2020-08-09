@@ -36,3 +36,7 @@ article a {
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+.website:hover {
+  color: blue;
+}
