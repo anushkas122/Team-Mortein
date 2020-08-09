@@ -14,20 +14,20 @@ function Header({ user, loading }) {
     <div
       class="w-full pb-2 md:flex md:items-center md:justify-between md:pb-0"
       style={{
-        backgroundColor: "#a6d6dd",
+        backgroundColor: "#a5cbd3",
         paddingLeft: "100px",
         position: "fixed",
       }}
     >
       <nav className="container flex items-center justify-between  py-2 ">
         <div id="Brand" className="text-3xl text-black-700">
-          Clever Clubs
+          <img src="logoImage.png" alt="Logo" width="150px" height="150px" />
         </div>
         <ul className=" flex   ">
           <input
             type="text"
-            class="w-full px-4 py-3 mx-4 leading-tight text-sm rounded placeholder-gray-200 focus:outline-none focus:shadow-outline"
-            style={{ backgroundColor: "#ffffff", color: "black" }}
+            class="w-full px-4 py-3 mx-4 leading-tight text-sm rounded placeholder-gray-200 focus:outline-none focus:shadow-outline text-black-700"
+            style={{ backgroundColor: "#ffffff" }}
             placeholder="search"
           />
         </ul>
