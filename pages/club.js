@@ -35,11 +35,21 @@ function Club() {
     logEvent("click", 1);
   };
   return (
-    <>
+    <div className="h-screen flex flex-col" style = {{backgroundColor: "#f7f0d8"}}>
       <Layout user={user} loading={loading}>
-      <img src = "UABC image1.png" alt="UABC image"></img>
-        <h1>Page heading</h1>
-        <p>It can be a live changing club for you! Come and join us! We need you to join UABC!</p>
+      <h1 align = "left" style = {{color:"#f4976c"}} class = "font-semibold text-4xl">University of Auckland Badminton Club</h1>
+      <div class = "grid grid-cols-2 gap-4">
+         <div><p align = "left" class = "font-medium text-center">You are reading the description of most recreative, welcoming, diversing, and professional sports club of University of Auckland. We have three weekly sessions located at Gilles Ave Auckland Badminton Hall with players from beginners to nationals. It is the best chance for you to explore this fantastic sport while socializing. It can be a live changing place for you! Come and join us! We need you to join UABC!</p>
+          </div>
+       <div>
+      <p className = "m-6 shadow-2xl align-right"><img src = "UABC image1.png" alt="UABC image"  width="600" height="500" class = "rounded-lg shadow-lg">
+        </img>
+        <h3 class = "font-bold mt-5 ml-5"> Contact: Chieh-I Ko (President 2020)</h3>
+        <h3 class = "font-bold ml-5"> Email: badminton.au@gmail.com</h3>
+        <h3 class = "font-bold ml-5"> Website: uabc.club</h3>
+        </p>
+      </div>
+      </div>
 
         {/* {loading && <p>Loading login info...</p>}
         {!loading && !user && (
@@ -63,9 +73,9 @@ function Club() {
           </>
         )}
 
-        <Button  onclick="window.history.back()">Back</Button>
+        <Button></Button>
       </Layout>
-    </>
+    </div>
   );
 }
 

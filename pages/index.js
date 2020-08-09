@@ -34,6 +34,7 @@ function Home() {
           <Button></Button> */}
       <Header />
       <main className="container mx-auto flex-1">
+      <p class = "font-black text-6xl">
         <h1>SPORTS</h1>
         <Categories category={"Sport"} />
         <h1>ACADEMIC</h1>
@@ -44,6 +45,7 @@ function Home() {
         <Categories category={"Cultural"} />
         <h1>CAUSES</h1>
         <Categories category={"Causes"} />
+      </p>
       </main>
 
       <Footer />
