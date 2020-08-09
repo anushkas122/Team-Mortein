@@ -7,7 +7,10 @@ import Header from "../components/header";
 
 function Home() {
   return (
-    <div className="h-screen flex flex-col">
+    <div
+      className="h-screen flex flex-col"
+      style={{ backgroundColor: "#f7f0d8" }}
+    >
       <SideBar />
       {/* {loading && <p>Loading login info...</p>}
           {!loading && !user && (
@@ -33,18 +36,32 @@ function Home() {
 
           <Button></Button> */}
       <Header />
-      <main className="container mx-auto flex-1">
-        <h1>SPORTS</h1>
+
+      <main
+        className="container mx-auto flex-1"
+        style={{ margin: "100px", backgroundColor: "#f7f0d8" }}
+      ></main>
+
+      <div
+        style={{
+          paddingLeft: "170px",
+          paddingBottom: "100px",
+          marginTop: "-100px",
+          backgroundColor: "#f7f0d8",
+        }}
+      >
+        <h1 class="font-black ml-8">SPORTS</h1>
+
         <Categories category={"Sport"} />
-        <h1>ACADEMIC</h1>
+        <h1 class="font-black ml-8">ACADEMIC</h1>
         <Categories category={"Academic"} />
-        <h1>RELIGIOUS</h1>
+        <h1 class="font-black ml-8">RELIGIOUS</h1>
         <Categories category={"Religious"} />
-        <h1>CULTURE</h1>
+        <h1 class="font-black  ml-8">CULTURE</h1>
         <Categories category={"Cultural"} />
-        <h1>CAUSES</h1>
+        <h1 class="font-black  ml-8">CAUSES</h1>
         <Categories category={"Causes"} />
-      </main>
+      </div>
 
       <Footer />
     </div>

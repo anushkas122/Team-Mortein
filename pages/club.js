@@ -35,19 +35,77 @@ function Club() {
     logEvent("click", 1);
   };
   return (
-    <>
+    <div
+      className="h-screen flex flex-col"
+      style={{ backgroundColor: "#f7f0d8" }}
+    >
       <Layout user={user} loading={loading}>
-        <h1>Page heading</h1>
-        <p>Interesting content here</p>
+        <h1
+          align="left"
+          style={{ color: "#102576", padding: "10px" }}
+          class="font-semibold text-4xl mt-20 ml-12"
+        >
+          <p
+          class="text-xl text-center text-4xl">
+          University of Auckland Badminton Club
+          </p>
+        </h1>
 
-        {loading && <p>Loading login info...</p>}
+        <div class="grid grid-cols-1 xl:grid-cols-2">
+
+          <div>
+            <p
+              align="left"
+              class="text-xl text-justify"
+              style={{ padding: "20px" }}
+            >
+              You are reading the description of most recreative, welcoming,
+              diversing, and professional sports club of University of Auckland.
+              We have three weekly sessions located at Gilles Ave Auckland
+              Badminton Hall with players from beginners to nationals. It is the
+              best chance for you to explore this fantastic sport while
+              socializing. It can be a live changing place for you! Come and
+              join us! We need you to join UABC!
+            </p>
+          </div>
+          <div>
+            <p className="m-6 shadow-2xl align-right">
+              <img
+                class="text-justify"
+                src="UABC image1.png"
+                alt="UABC image"
+                width="600"
+                height="500"
+                class="rounded-lg shadow-lg"
+              ></img>
+              <h3 class="font-bold mt-5 ml-5">
+                {" "}
+                Contact: Chieh-I Ko (President 2020)
+              </h3>
+              <h3 class="font-bold ml-5"> Email: badminton.au@gmail.com</h3>
+              <h3 class="font-bold ml-5">
+                {" "}
+                Website:{" "}
+                <a
+                  href="https://www.uabc.club/"
+                  target="_blank"
+                  className="website"
+                >
+                  www.uabc.club
+                </a>
+              </h3>
+            </p>
+          </div>
+        </div>
+
+        {/* {loading && <p>Loading login info...</p>}
         {!loading && !user && (
           <>
             <p>
               To view the dashboard <a href="/api/login">Login</a>
             </p>
           </>
-        )}
+        )} */}
         {user && (
           <>
             <ProfileCard user={user}>
@@ -61,10 +119,8 @@ function Club() {
             <LinkA href="/reportSWR">Report - SWR</LinkA>
           </>
         )}
-
-        <Button></Button>
       </Layout>
-    </>
+    </div>
   );
 }
 

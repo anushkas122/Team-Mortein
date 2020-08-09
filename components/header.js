@@ -1,4 +1,5 @@
-import Link from 'next/link'
+import Link from "next/link";
+import ReactTooltip from "react-tooltip";
 
 const MenuItem = ({ children, href }) =>
   <Link href={href}>
@@ -9,38 +10,29 @@ const MenuItem = ({ children, href }) =>
 
 function Header ({ user, loading }) {
   return (
-    <header className='bg-orange-300'>
-      <nav className='container flex items-center justify-between flex-wrap  py-2 '>
-        <div id='Brand' className='text-3xl text-black-700'>
-          WDCC Workshop Application
+    <div
+      class="w-full pb-2 md:flex md:items-center md:justify-between md:pb-0"
+      style={{
+        backgroundColor: "#a5cbd3",
+        paddingLeft: "100px",
+        position: "fixed",
+      }}
+    >
+      <nav className="container flex items-center justify-between  py-2 ">
+        <div id="Brand" className="text-3xl text-black-700">
+          <img src="logoImage.png" alt="Logo" width="150px" height="150px" />
         </div>
-        <ul className=' flex   '>
-          <MenuItem href='/'>
-              Home
-          </MenuItem>
-          <MenuItem href='/about'>
-              About
-          </MenuItem>
-          {!loading &&
-            (user ? (
-              <>
-                <MenuItem href='/reportSWR'>
-                Report
-                </MenuItem>
-                <MenuItem href='/api/logout'>
-                Logout
-                </MenuItem>
-              </>
-            ) : (
-              <MenuItem href='/api/login'>
-                Login
-              </MenuItem>
-            ))}
+        <ul className=" flex   ">
+          <input
+            type="text"
+            class="w-full px-4 py-3 mx-4 leading-tight text-sm rounded placeholder-gray-200 focus:outline-none focus:shadow-outline text-black-700"
+            style={{ backgroundColor: "#ffffff" }}
+            placeholder="search"
+          />
         </ul>
       </nav>
-
-    </header>
-  )
+    </div>
+  );
 }
 
 export default Header
