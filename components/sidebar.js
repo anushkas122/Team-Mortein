@@ -5,7 +5,12 @@ import SideNav, {
   NavIcon,
   NavText,
 } from "@trendmicro/react-sidenav";
-import { faHome, faUniversity } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHome,
+  faUsers,
+  faTags,
+  faCalendar,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Be sure to include styles at some point, probably during your bootstraping
@@ -19,32 +24,30 @@ function SideBar() {
       }}
     >
       <SideNav.Toggle />
-      <SideNav.Nav defaultSelected="home">
+      <SideNav.Nav>
         <NavItem eventKey="home">
           <NavIcon>
-            <FontAwesomeIcon
-              // className="fa fa-fw fa-home"
-              style={{ fontSize: "1.75em" }}
-              icon={faHome}
-            />
+            <FontAwesomeIcon style={{ fontSize: "1.75em" }} icon={faHome} />
           </NavIcon>
           <NavText>Home</NavText>
         </NavItem>
-        <NavItem eventKey="charts">
+        <NavItem eventKey="clubs">
           <NavIcon>
-            <FontAwesomeIcon
-              // className="fa fa-fw fa-line-chart"
-              style={{ fontSize: "1.75em" }}
-              icon={faUniversity}
-            />
+            <FontAwesomeIcon style={{ fontSize: "1.75em" }} icon={faUsers} />
           </NavIcon>
           <NavText>Clubs</NavText>
-          {/* <NavItem eventKey="charts/linechart">
-            <NavText>Line Chart</NavText>
-          </NavItem>
-          <NavItem eventKey="charts/barchart">
-            <NavText>Bar Chart</NavText>
-          </NavItem> */}
+        </NavItem>
+        <NavItem eventKey="events">
+          <NavIcon>
+            <FontAwesomeIcon style={{ fontSize: "1.75em" }} icon={faTags} />
+          </NavIcon>
+          <NavText>Events</NavText>
+        </NavItem>
+        <NavItem eventKey="calendar">
+          <NavIcon>
+            <FontAwesomeIcon style={{ fontSize: "1.75em" }} icon={faCalendar} />
+          </NavIcon>
+          <NavText>Calendar</NavText>
         </NavItem>
       </SideNav.Nav>
     </SideNav>

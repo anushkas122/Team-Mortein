@@ -33,7 +33,7 @@ function Home() {
 
           <Button></Button> */}
       <Header />
-      <main className="container mx-auto flex-1">
+      <main className="container mx-auto flex-1" style={{ margin: "100px" }}>
         <h1>SPORTS</h1>
         <Categories category={"Sport"} />
         <h1>ACADEMIC</h1>
