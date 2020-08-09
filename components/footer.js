@@ -5,7 +5,7 @@ function Footer({ user, loading }) {
     <footer className="bg-gray-400 self-end w-full bottom-0">
       <nav className="container flex items-center justify-center flex-wrap  py-2">
         <div id="Brand" className="text-base justify-center text-black-600">
-          Copyright 2020 University of Auckland
+          Clever Clubs for the University of Auckland &copy; 2020
         </div>
       </nav>
     </footer>

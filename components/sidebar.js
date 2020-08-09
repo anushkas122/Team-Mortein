@@ -5,38 +5,49 @@ import SideNav, {
   NavIcon,
   NavText,
 } from "@trendmicro/react-sidenav";
+import {
+  faHome,
+  faUsers,
+  faTags,
+  faCalendar,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Be sure to include styles at some point, probably during your bootstraping
 
 function SideBar() {
   return (
     <SideNav
+      style={{ backgroundColor: "#102576", position: "fixed" }}
       onSelect={(selected) => {
         // Add your code here
       }}
     >
       <SideNav.Toggle />
-      <SideNav.Nav defaultSelected="home">
+      <SideNav.Nav>
         <NavItem eventKey="home">
           <NavIcon>
-            <i className="fa fa-fw fa-home" style={{ fontSize: "1.75em" }} />
+            <FontAwesomeIcon style={{ fontSize: "1.75em" }} icon={faHome} />
           </NavIcon>
           <NavText>Home</NavText>
         </NavItem>
-        <NavItem eventKey="charts">
+        <NavItem eventKey="clubs">
           <NavIcon>
-            <i
-              className="fa fa-fw fa-line-chart"
-              style={{ fontSize: "1.75em" }}
-            />
+            <FontAwesomeIcon style={{ fontSize: "1.75em" }} icon={faUsers} />
           </NavIcon>
-          <NavText>Charts</NavText>
-          <NavItem eventKey="charts/linechart">
-            <NavText>Line Chart</NavText>
-          </NavItem>
-          <NavItem eventKey="charts/barchart">
-            <NavText>Bar Chart</NavText>
-          </NavItem>
+          <NavText>Clubs</NavText>
+        </NavItem>
+        <NavItem eventKey="events">
+          <NavIcon>
+            <FontAwesomeIcon style={{ fontSize: "1.75em" }} icon={faTags} />
+          </NavIcon>
+          <NavText>Events</NavText>
+        </NavItem>
+        <NavItem eventKey="calendar">
+          <NavIcon>
+            <FontAwesomeIcon style={{ fontSize: "1.75em" }} icon={faCalendar} />
+          </NavIcon>
+          <NavText>Calendar</NavText>
         </NavItem>
       </SideNav.Nav>
     </SideNav>
