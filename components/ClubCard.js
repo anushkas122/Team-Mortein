@@ -9,7 +9,7 @@ function ClubCard({ data }) {
             src={data.icon}
           />
         </div>
-        <div class="px-6 py-4">
+        <div class="px-6 py-4 bg-white">
           <div class="font-bold text-xl mb-2">{data.clubName}</div>
           <p class="text-gray-700 text-base">{data.blurb}</p>
         </div>

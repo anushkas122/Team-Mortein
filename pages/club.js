@@ -45,13 +45,18 @@ function Club() {
           style={{ color: "#102576", padding: "10px" }}
           class="font-semibold text-4xl mt-20 ml-12"
         >
+          <p
+          class="text-xl text-center text-4xl">
           University of Auckland Badminton Club
+          </p>
         </h1>
-        <div class="grid grid-cols-2 gap-4 ml-12">
+
+        <div class="grid grid-cols-1 xl:grid-cols-2">
+
           <div>
             <p
               align="left"
-              class="text-xl text-center"
+              class="text-xl text-justify"
               style={{ padding: "20px" }}
             >
               You are reading the description of most recreative, welcoming,
@@ -66,6 +71,7 @@ function Club() {
           <div>
             <p className="m-6 shadow-2xl align-right">
               <img
+                class="text-justify"
                 src="UABC image1.png"
                 alt="UABC image"
                 width="600"
