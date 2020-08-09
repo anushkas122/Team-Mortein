@@ -34,7 +34,7 @@ function Home() {
           <Button></Button> */}
       <Header />
       <main className="container mx-auto flex-1" style={{ margin: "100px" }}>
-        <h1>SPORTS</h1>
+        {/* <h1>SPORTS</h1>
         <Categories category={"Sport"} />
         <h1>ACADEMIC</h1>
         <Categories category={"Academic"} />
@@ -43,8 +43,27 @@ function Home() {
         <h1>CULTURE</h1>
         <Categories category={"Cultural"} />
         <h1>CAUSES</h1>
-        <Categories category={"Causes"} />
+        <Categories category={"Causes"} /> */}
       </main>
+
+      <div
+        style={{
+          paddingLeft: "170px",
+          paddingBottom: "100px",
+          marginTop: "-100px",
+        }}
+      >
+        <h1 class="font-black ml-8">SPORTS</h1>
+        <Categories category={"Sport"} />
+        <h1 class="font-black ml-8">ACADEMIC</h1>
+        <Categories category={"Academic"} />
+        <h1 class="font-black ml-8">RELIGIOUS</h1>
+        <Categories category={"Religious"} />
+        <h1 class="font-black  ml-8">CULTURE</h1>
+        <Categories category={"Cultural"} />
+        <h1 class="font-black  ml-8">CAUSES</h1>
+        <Categories category={"Causes"} />
+      </div>
 
       <Footer />
     </div>
