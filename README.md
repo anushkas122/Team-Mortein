@@ -1,5 +1,39 @@
-# WDCC MERN Workshop. 
-A boilerplate for workshops and tutorials for MERN - Mongo, Express, React, Node/Next
+# Team Mortein
+
+A [Web Development Consulting Club (WDCC)](https://www.wdcc.co.nz/) & [Auckland University Computer Science Club (AUCS)](https://www.facebook.com/AUCSociety/) Hackathon 2020 
+
+Awarded: Winner for Best Teamwork 
+
+## The Theme
+Make an application to improve university students wellbeing 
+
+## The Problem
+The problem we found as a team is that clubs at University of Auckland (especially the small ones) are hardly known and most students find events usually through recommendations. With clever clubs, it is easy to use and it will list all of the clubs at the University of Auckland where each club has their own club page with its contact details.
+
+## The Team
+*Insert Team Photo*
+Left to Right: (Gasper Qian)[], (Anna Reyes)[], (Meilyka Amir)[], (Anushka Siriwardane)[], (Sabrina Teoh)[], (Darren Chen(Absent))[]
+
+## The MVP
+Our Minimum Viable Product (MVP) is to have clubs listed and to have at least one club page displayed after clicking into one of the club listed. It is not currently deployed online. However, a short demo is shown below.
+
+*insert demo video here*
+
+### Initial Page
+
+
+### Club Page
+
+#### Note
+At the start of this hackathon, most of our team members were not competent with web development. However, with the help of our mentors and by working together, we managed to create a web application where we have learnt a lot about React, HTML, CSS, Javascript and Tailwind CSS.
+
+#### Future Implementations
+Due to the short timeframe for a hackathon, we were not able to implement a backend for our web application so dummy values were used. However, we would love to include this in the future and also, edit some features like add calendar, add searchbar, configure for each club, add list of events under each club page etc.
+
+
+
+----------------------------------------------------------
+
 
 # The WWDC MERN template
 
