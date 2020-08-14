@@ -1,6 +1,6 @@
 # Team Mortein (Clever Clubs)
 
-A [Web Development Consulting Club (WDCC)](https://www.wdcc.co.nz/) & [Auckland University Computer Science Club (AUCS)](https://www.facebook.com/AUCSociety/) Hackathon 2020 
+A [Web Development Consulting Club (WDCC)](https://www.wdcc.co.nz/) & [Auckland University Computer Science Club (AUCS)](https://www.facebook.com/AUCSociety/) Hackathon from 8th to 9th August 2020
 
 Awarded: **Winner for Best Teamwork**
 
