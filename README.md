@@ -34,9 +34,11 @@ This is our home page where the clubs from the University of Auckland are listed
 This is an example of a club page which contains the details (email, website, contact number) of the club. In the future, we would like to add the list of events that the club has in their own club page.
 
 ### How to Run
-We have used multiple add-ins like [font awesome](https://fontawesome.com/, [react-side-nav](https://reactjsexample.com/react-side-nav-component/?fbclid=IwAR0Kp29EBcSzE49h5XaMwtNltEqt4QJjZuQpLJ3gwyMhyQhJN48JnpD7Dis)
+We have used multiple add-ins like [font awesome](https://fontawesome.com/), [react-side-nav](https://reactjsexample.com/react-side-nav-component/?fbclid=IwAR0Kp29EBcSzE49h5XaMwtNltEqt4QJjZuQpLJ3gwyMhyQhJN48JnpD7Dis)
 
-Please try "npm i" (for npm packages) and "npm chai" (for testing) on the terminal to install 
+Please switch to the Team-Mortein folder before installing the npm packages using "cd Team-Mortein" 
+
+Then, try "npm i" (for npm packages) and "npm chai" (for testing) on the terminal to install 
 
 Use "npm run dev" to run our website on your local device
 
